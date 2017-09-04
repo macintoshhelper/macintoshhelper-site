@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title></title>
+  <meta name="description" content="">
+
+  <link rel="stylesheet" href="assets/css/main.css">
+
+  <!-- Disabled JavaScript fallbacks -->
+  <noscript>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,500|Roboto:300,400,500,700" rel="stylesheet">
+  </noscript>
+</head>
+
+<body>
+  <header id="home-header" class="home-header">
+    <nav id="navbar" class="navbar">
+      <div class="container">
+        <!-- <a class="site-title">MACINTOSH HELPER</a> -->
+        <ul class="navbar__ul">
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#blog">BLOG</a></li>
+          <li><a href="#video">VIDEO</a></li>
+          <li><a href="#about">ABOUT</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container site-heading text-center">
+      <h1>MACINTOSH HELPER</h1>
+      <h3>tech information simplified</h3>
+      <div class="call-to-action">
+        <button class="button button--video">LEARN ABOUT TECH</button>
+        <button class="button button--blog">READ BLOG</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- END CONTENT -->
+  <script src="assets/js/main.js"></script>
+  <script>
+    // Load fonts asynchronously
+    WebFontConfig = {
+      google: {
+        families: ['Robot Mono:400,500', 'Roboto:300,400,500,700'],
+      },
+    };
+
+    (function (d) {
+      var wf = d.createElement('script'), s = d.scripts[0];
+      wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
+      wf.async = true;
+      s.parentNode.insertBefore(wf, s);
+    })(document);
+  </script>
+</body>
+
+</html>
